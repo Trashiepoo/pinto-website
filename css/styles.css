@@ -153,3 +153,72 @@ header{
 #muaythai-shape{
     margin-left: 45%;
 }
+
+/*classes*/
+
+.pads-image{
+    height: 40vh;
+    width: 50%;
+    object-fit: cover;
+    object-position: 80% 20%;
+}
+
+#pads1{
+    float:left;
+}
+
+#pads2{
+    float:right;
+}
+
+.checkmark{
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    border:4px solid #00b490;
+    border-radius: 50%;
+    width:35px;
+    height:35px;
+}
+
+.leftstem{
+    position: absolute;
+    border:2px solid #00b490;
+    width:6px;
+    height:0px;
+    transform: rotate(45deg);
+    top:22px;
+    left:12px;
+}
+
+.rightstem{
+    position: absolute;
+    border:2px solid #00b490;
+    width:14px;
+    height:0px;
+    transform: rotate(135deg);
+    top:20px;
+    left:16px;
+}
+
+#checkmark1{
+    top:-50px;
+    left:130px;
+}
+
+#checkmark2{
+    top:-50px;
+    left:230px;
+}
+
+#pads1-insidetext{
+    top: 275px;
+    left: 20%;
+}
+
+#pads2-insidetext{
+    top: 275px;
+    left: 70%;
+}
