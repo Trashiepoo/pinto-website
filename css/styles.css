@@ -41,6 +41,14 @@ h2{
     position: absolute;
 }
 
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 /* Navigation */
@@ -106,6 +114,7 @@ header{
 }
 
 #info{
+    color: #3a3a3a;
     width: 50%;
     display: block;
     margin-left: auto;
@@ -229,4 +238,17 @@ h1{
 #checkmark2{
     left: 76.5%;
     top:40%;
+}
+
+.classes-images{
+    height: 60vh;
+    width: 50%;
+    object-fit: cover;
+    object-position: 70% 30%;
+}
+
+.classes-text{
+    width: 12%;
+    padding-right: 20%;
+    margin:1.85%;
 }
