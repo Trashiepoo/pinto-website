@@ -41,6 +41,12 @@ h2{
     position: absolute;
 }
 
+h1{
+    color: #00b490;
+    text-align: center;
+    font-size: 3rem;
+} 
+
 .float-right{
     float: right;
 }
@@ -165,13 +171,6 @@ header{
 
 /*classes*/
 
-h1{
-    color: #00b490;
-    text-align: center;
-    font-size: 3rem;
-}
-
-
 .pads-parent{
     display:flex;
     flex-direction: row;
@@ -245,6 +244,7 @@ h1{
     width: 50%;
     object-fit: cover;
     object-position: 70% 30%;
+    padding-left: 1px;
 }
 
 .classes-text{
@@ -252,3 +252,22 @@ h1{
     padding-right: 20%;
     margin:1.85%;
 }
+
+#jrmuaythai-text{
+    margin-top: 5%;
+}
+
+#coedmt-text{
+    margin-top: 8%;
+}
+
+#pmtpro-image{
+    object-position: 95% 5%;
+}
+
+#promt-text{
+    margin-top: 5%;
+}
+
+/*schedule*/
+
