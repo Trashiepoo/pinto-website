@@ -280,3 +280,21 @@ header{
     object-fit: cover;
     object-position: 70% 30%;
 }
+
+
+/* end */
+
+.end-page{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-text{
+    color: white;
+}
+
+#end-shape{
+    margin-top: 3.5%;
+}
