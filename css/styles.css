@@ -301,6 +301,10 @@ header{
 
 /*reviews*/
 
+.whole-sliderwidth{
+    background-color: #242424;
+}
+
 #slider
 {
     height: 200px;
@@ -347,7 +351,7 @@ header{
 	margin: 0 auto;
 	padding: 0;
 	width: 550px;
-  min-height: 180px;
+  min-height: px;
   text-align:center;
 }
 
@@ -386,3 +390,4 @@ header{
 {
 	-webkit-animation: slide-animation 20s infinite;
 }
+
