@@ -391,3 +391,36 @@ header{
 	-webkit-animation: slide-animation 20s infinite;
 }
 
+/*contact*/
+
+.contactarea{
+    
+}
+
+.contact-image{
+    height: 40vh;
+    width: 100%;
+    filter: brightness(70%) blur(3px);
+}
+
+#contact-text{
+    position:absolute;
+    left: 35%;
+    top:  25%;
+}
+
+.contacttext-container{
+    background-color:#000;
+    padding:25px;
+}
+
+#insta-link{
+    color: #cacaca;
+    font-size: 1rem;
+}
+
+#contact-map{
+    position:absolute;
+    left: 50%;
+    top:  5%;
+}
